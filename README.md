@@ -4,6 +4,9 @@ This implements UNIX-style load average computation.
 
 For a more in depth discussion, see [this article](http://www.linuxjournal.com/article/9001?page=0,1).
 
+Yes, there are global variables. This was designed as a system-wide calculator
+but could easily be modified to track multiple types of events.
+
 # Usage
 
 There are two major operations: `tick` and `compute`.
