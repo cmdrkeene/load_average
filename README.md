@@ -7,6 +7,8 @@ For a more in depth discussion, see [this article](http://www.linuxjournal.com/a
 Yes, there are global variables. This was designed as a system-wide calculator
 but could easily be modified to track multiple types of events.
 
+@nakajima points out that it's constant time. And that's a good thing.
+
 # Usage
 
 There are two major operations: `tick` and `compute`.
