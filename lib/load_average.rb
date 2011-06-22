@@ -24,7 +24,7 @@ module LoadAverage
       ((load * 1000).to_i >> FSHIFT) / 1000.0
     end
 
-    def tick(name = :system)
+    def tick
       $ticks += 1
     end
   end
