@@ -19,7 +19,7 @@ When whatever you want to measure (e.g. requests, jobs, etc) happens, call
 On some interval, you need to call `compute`. You must pass that interval to 
 `compute`.
 
-## Example
+## Dramatization (code did not actually happen)
 
     require 'rubygems'
     require 'eventmachine'
